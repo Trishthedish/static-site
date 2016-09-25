@@ -1,55 +1,80 @@
 body {
   /*background-color: #22BDA0;*/
-  background-repeat: no-repeat;
-
+  /*background-repeat: no-repeat;*/
 }
 
+.nav_container
 nav li {
   text-decoration: none;
 }
-/*
-.icons img{
-  height: 90px;
-  width: auto;
-  /*border: 4px solid black;*/
-}*/
 
-#computer {
-  width: 25em;
-  height: auto;
+.nav_container {
+  background-color: #22BDA0;
+  opacity: 0.8;
+  /*   border: 1px solid blue; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  space-between: 2px;
+}
+.nav_container li {
+  display: inline;
+  list-style-type: none;
+/*   border: 2px solid grey; */
+  padding: 20px;
+  color: black;
+  opacity: 0.9;
 }
 
-#mouse {
-  width: auto;
-  height: 10em;
-}
-#keyboard {
-width: 28em;
-height: auto;
+li {
+  font-family: monospace;
+  line-height: 10px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-
-
-
-
-
-/*
-#hero {
-  /*border: 5px solid #ff0000;*/
-  /*margin-left: auto;
+.verbs {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  font-family: monospace;
+  font-size: 35px;
+}
+#hero  {
+/*   border: 5px solid #22BDA0; */
+  margin-left: auto;
   margin-right: auto;
-  display: block;
-  /*# should I turn to table?*/
-  /*height: 100%;
-  width: 100%;*/*/
-  /*   background-color: pink; */
+  display: table;
+  height: 100%;
+  width: 100%;
 }
 
-/*#hero div {
+#hero div {
   width: 817px; /*this needs to be the width of the img itself*/
-  /*margin: 0 auto;*/
-}*/
+  margin: 0 auto;
+}
 
-/*#hero img {
-  /*opacity: 0.2;*/
-}*/*/
+#hero img {
+  opacity: 0.2;
+}
+
+.foot_container {
+  background-color: #22BDA0;
+  opacity: 0.8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.foot_container p {
+  display: inline;
+  padding: 20px;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
