@@ -68,13 +68,12 @@ li {
   justify-content: center;
 }
 
-.foot_container p {
+.foot_container h4 {
   display: inline;
   padding: 20px;
 }
 
-p {
-  font-family: monospace;
-  font-size: 20px;
-  font-weight: bold;
+.icons {
+  height: 2px;
+  width: 3px;
 }
