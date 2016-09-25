@@ -1,30 +1,55 @@
 body {
   /*background-color: #22BDA0;*/
   background-repeat: no-repeat;
+
 }
 
 nav li {
   text-decoration: none;
 }
-
+/*
 .icons img{
   height: 90px;
   width: auto;
   /*border: 4px solid black;*/
+}*/
 
+#computer {
+  width: 25em;
+  height: auto;
 }
 
+#mouse {
+  width: auto;
+  height: 10em;
+}
+#keyboard {
+width: 28em;
+height: auto;
+}
+
+
+
+
+
+
+/*
 #hero {
   /*border: 5px solid #ff0000;*/
-  margin-left: auto;
+  /*margin-left: auto;
   margin-right: auto;
   display: block;
   /*# should I turn to table?*/
-  height: 100%;
-  width: 100%;
+  /*height: 100%;
+  width: 100%;*/*/
   /*   background-color: pink; */
 }
 
-#hero div {
+/*#hero div {
   width: 817px; /*this needs to be the width of the img itself*/
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+}*/
+
+/*#hero img {
+  /*opacity: 0.2;*/
+}*/*/
