@@ -63,6 +63,7 @@ header ul li {
 .pullright {
   float: right;
   width: 335px;
+  font-family: sans-serif;
 }
 
 
@@ -91,9 +92,6 @@ header ul li {
    column-gap: 3em;
 }
 
-
-
-
 .fullscreen {
   display: block;
   width: 100%;
@@ -101,7 +99,6 @@ header ul li {
   margin: 0px auto;
   opacity: 0.4;
 }
-
 
 
 .logos a {
