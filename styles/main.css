@@ -34,6 +34,15 @@ header a {
   color: white;
 }
 
+header a:hover {
+  color: #ccc
+}
+
+/*This makes an active color of where youre at in webste*/
+header a.selected {
+  color: yellow;
+}
+
 header ul {
   display: flex;
   flex-direction: row;
@@ -88,6 +97,10 @@ header ul li {
   color: white;
   font-size: 20px;
   padding: 20px;
+}
+
+footer a:hover {
+  color: #ccc
 }
 
 .logos {
