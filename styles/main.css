@@ -72,11 +72,27 @@ header ul li {
   margin: 20px auto;
 }
 
+#descriptors {
+  font-family: monospace;
+  font-size: 20px;
+}
 .content:after {
   content: "";
   clear: both;
   display: block;
 }
+
+.image_gallery {
+  -webkit-column-count: 3;
+   -moz-column-count: 3;
+   column-count: 3;
+   -webkit-column-gap: 3em;
+   -moz-column-gap: 3em;
+   column-gap: 3em;
+}
+
+
+
 
 .fullscreen {
   display: block;
